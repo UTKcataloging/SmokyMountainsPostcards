@@ -10,7 +10,9 @@
    <name>
       <namePart>Standard News Agency (Knoxville, Tenn.)</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -22,7 +24,11 @@
          <placeTerm type="text">Knoxville (Tenn.)</placeTerm>
       </place>
       <dateCreated>Undated</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" qualifier="inferred">1910</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="inferred">1910</dateCreated>
+      <dateCreated encoding="edtf" keyDate="yes" point="end" qualifier="inferred">1955</dateCreated>
    </originInfo>
    <physicalDescription>
       <form authority="aat" valueURI="http://vocab.getty.edu/aat/300026816">postcards</form>
@@ -55,7 +61,7 @@
    </subject>
    <relatedItem type="host" displayLabel="Project">
       <titleInfo>
-         <title/>
+         <title>Great Smoky Mountains Postcards</title>
       </titleInfo>
       <location>
          <url>http://digital.lib.utk.edu/smokiespostcards</url>
@@ -67,10 +73,15 @@
       </titleInfo>
       <identifier type="local">MS.3709</identifier>
    </relatedItem>
+   <relatedItem type="series">
+      <titleInfo>
+         <title>Souvenir of Great Smoky Mountains National Park</title>
+      </titleInfo>
+   </relatedItem>
    <accessCondition type="use and reproduction">Public domain.</accessCondition>
    <recordInfo>
       <recordIdentifier>record_gsmrc-post_33_17</recordIdentifier>
-      <recordContentSource/>
+      <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
       <languageOfCataloging>
          <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
       </languageOfCataloging>

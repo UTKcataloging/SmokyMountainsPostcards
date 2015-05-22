@@ -12,19 +12,25 @@
    <name>
       <namePart>Standard News Agency (Knoxville, Tenn.)</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <name>
       <namePart>unknown</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <name>
       <namePart>Fisher, Elliot Lyman</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="">Contributor</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/ctb">Contributor</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -36,7 +42,11 @@
          <placeTerm type="text">Knoxville (Tenn.)</placeTerm>
       </place>
       <dateCreated>Undated</dateCreated>
-      <dateCreated encoding="edtf" keyDate="yes" qualifier="inferred">1910</dateCreated>
+      <dateCreated encoding="edtf"
+                   keyDate="yes"
+                   point="start"
+                   qualifier="inferred">1910</dateCreated>
+      <dateCreated encoding="edtf" keyDate="yes" point="end" qualifier="inferred">1955</dateCreated>
    </originInfo>
    <physicalDescription>
       <form authority="aat" valueURI="http://vocab.getty.edu/aat/300026816">postcards</form>
@@ -75,7 +85,7 @@
    </subject>
    <relatedItem type="host" displayLabel="Project">
       <titleInfo>
-         <title/>
+         <title>Great Smoky Mountains Postcards</title>
       </titleInfo>
       <location>
          <url>http://digital.lib.utk.edu/smokiespostcards</url>
@@ -90,7 +100,7 @@
    <accessCondition type="use and reproduction">Public domain.</accessCondition>
    <recordInfo>
       <recordIdentifier>record_gsmrc-post_52_01</recordIdentifier>
-      <recordContentSource/>
+      <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
       <languageOfCataloging>
          <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
       </languageOfCataloging>
