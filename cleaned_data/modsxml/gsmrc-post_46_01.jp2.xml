@@ -58,7 +58,7 @@
    </subject>
    <subject>
       <geographic authority="naf"
-                  valueURI="http://id.loc.gov/authorities/names/n80040520 | Gatlinburg">Gatlinburg (Tenn.)</geographic>
+                  valueURI="http://id.loc.gov/authorities/names/n80040520">Gatlinburg (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.71453N, 83.51189W</coordinates>
       </cartographics>
